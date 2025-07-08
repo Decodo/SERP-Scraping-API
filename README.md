@@ -2,8 +2,8 @@
 # SERP Scraping API
 
 <p align="center">
-    <a href="https://dashboard.smartproxy.com/register?page=serp-scraping-api%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=github_serp_scraper" ><img src="https://i.imgur.com/a85LTPD.png"></a>
-</p>
+<a href="https://dashboard.decodo.com/register?page=scrapers%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=scraper_api_github"><img src="https://github.com/user-attachments/assets/13b08523-32b0-4c85-8e99-580d7c2a9055"></a>
+
 
 [![](https://dcbadge.vercel.app/api/server/gvJhWJPaB4)](https://discord.gg/sCr34yVDVB)
 
