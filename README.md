@@ -2,7 +2,7 @@
 # SERP Scraping API
 
 <p align="center">
-<a href="https://dashboard.decodo.com/register?page=scrapers%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=scraper_api_github"><img src="https://github.com/user-attachments/assets/13b08523-32b0-4c85-8e99-580d7c2a9055"></a>
+<a href="https://dashboard.decodo.com/register?page=scrapers%2Fpricing&utm_source=github.com&utm_medium=social&utm_campaign=scraper_api_github"><img src="https://github.com/user-attachments/assets/13b08523-32b0-4c85-8e99-580d7c2a9055"></a>
 
 
 [![](https://dcbadge.vercel.app/api/server/gvJhWJPaB4)](https://discord.gg/sCr34yVDVB)
