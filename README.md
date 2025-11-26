@@ -23,7 +23,7 @@
 
 ## Introduction
 
-With [our SERP Scraping API](https://smartproxy.com/scraping/serp
+With [our SERP Scraping API](https://decodo.com/scraping/serp
 ), you can scrape all popular search engines. Most notably and in depth, Google, but also Baidu, Bing, and Yandex.
 
 ## Authentication
@@ -44,7 +44,7 @@ For available parameters, you can refer to [Parameters](#parameters).
 
 ### Google Search
 
-API Link: https://scraper-api.smartproxy.com/v2/scrape
+API Link: https://scraper-api.decodo.com/v2/scrape
 
 ```http
   POST /scrape
@@ -85,9 +85,9 @@ First 2 organic results
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googlesearch.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googlesearch.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googlesearch.py > googlesearch.py ``` |
-| PHP                 | [php/googlesearch.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googlesearch.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googlesearch.php > googlesearch.php ``` |
-| Node.js                 | [nodejs/googlesearch.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googlesearch.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googlesearch.js > googlesearch.js ``` |
+| Python                  | [python/googlesearch.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googlesearch.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googlesearch.py > googlesearch.py ``` |
+| PHP                 | [php/googlesearch.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googlesearch.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googlesearch.php > googlesearch.php ``` |
+| Node.js                 | [nodejs/googlesearch.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googlesearch.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googlesearch.js > googlesearch.js ``` |
 
 ### Target: ```google``` (parseable)
 Required parameters: ```url```
@@ -101,9 +101,9 @@ Required parameters: ```url```
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googlesearchurl.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googlesearchurl.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googlesearchurl.py > googlesearchurl.py ``` |
-| PHP                 | [php/googlesearchurl.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googlesearchurl.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googlesearchurl.php > googlesearchurl.php ``` |
-| Node.js                 | [nodejs/googlesearchurl.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googlesearchurl.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googlesearchurl.js > googlesearchurl.js ``` |
+| Python                  | [python/googlesearchurl.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googlesearchurl.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googlesearchurl.py > googlesearchurl.py ``` |
+| PHP                 | [php/googlesearchurl.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googlesearchurl.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googlesearchurl.php > googlesearchurl.php ``` |
+| Node.js                 | [nodejs/googlesearchurl.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googlesearchurl.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googlesearchurl.js > googlesearchurl.js ``` |
 
 ### Target: ```google_hotels``` (not parseable)
 Required parameters: ```query```
@@ -119,9 +119,9 @@ Returns search results from Google hotels. This target is not parseable, meaning
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googlehotels.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googlehotels.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googlehotels.py > googlehotels.py ``` |
-| PHP                 | [php/googlehotels.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googlehotels.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googlehotels.php > googlehotels.php ``` |
-| Node.js                 | [nodejs/googlehotels.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googlehotels.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googlehotels.js > googlehotels.js ``` |
+| Python                  | [python/googlehotels.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googlehotels.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googlehotels.py > googlehotels.py ``` |
+| PHP                 | [php/googlehotels.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googlehotels.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googlehotels.php > googlehotels.php ``` |
+| Node.js                 | [nodejs/googlehotels.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googlehotels.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googlehotels.js > googlehotels.js ``` |
 
 ### Target: ```google_travel_hotels``` (not parseable)
 Required parameters: ```query```
@@ -140,9 +140,9 @@ Returns hotel search results from Google Travel service in HTML.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googletravel.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googletravel.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googletravel.py > googletravel.py ``` |
-| PHP                 | [php/googletravel.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googletravel.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googletravel.php > googletravel.php ``` |
-| Node.js                 | [nodejs/googletravel.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googletravel.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googletravel.js > googletravel.js ``` |
+| Python                  | [python/googletravel.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googletravel.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googletravel.py > googletravel.py ``` |
+| PHP                 | [php/googletravel.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googletravel.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googletravel.php > googletravel.php ``` |
+| Node.js                 | [nodejs/googletravel.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googletravel.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googletravel.js > googletravel.js ``` |
 
 ### Target: ```google_shopping_search``` (parseable)
 Required parameters: ```query```
@@ -158,9 +158,9 @@ Returns results from Google Shopping search.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googleshopping.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googleshopping.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googleshopping.py > googleshopping.py ``` |
-| PHP                 | [php/googleshopping.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googleshopping.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googleshopping.php > googleshopping.php ``` |
-| Node.js                 | [nodejs/googleshopping.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googleshopping.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googleshopping.js > googleshopping.js ``` |
+| Python                  | [python/googleshopping.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googleshopping.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googleshopping.py > googleshopping.py ``` |
+| PHP                 | [php/googleshopping.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googleshopping.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googleshopping.php > googleshopping.php ``` |
+| Node.js                 | [nodejs/googleshopping.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googleshopping.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googleshopping.js > googleshopping.js ``` |
 
 ### Target: ```google_shopping_product``` (parseable)
 Required parameters: ```query``` (as item ID from Google Shopping)
@@ -176,9 +176,9 @@ Returns results from Google Shopping based on supplied item ID.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googleshoppingproduct.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googleshoppingproduct.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googleshoppingproduct.py > googleshoppingproduct.py ``` |
-| PHP                 | [php/googleshoppingproduct.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googleshoppingproduct.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googleshoppingproduct.php > googleshoppingproduct.php ``` |
-| Node.js                 | [nodejs/googleshoppingproduct.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googleshoppingproduct.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googleshoppingproduct.js > googleshoppingproduct.js ``` |
+| Python                  | [python/googleshoppingproduct.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googleshoppingproduct.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googleshoppingproduct.py > googleshoppingproduct.py ``` |
+| PHP                 | [php/googleshoppingproduct.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googleshoppingproduct.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googleshoppingproduct.php > googleshoppingproduct.php ``` |
+| Node.js                 | [nodejs/googleshoppingproduct.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googleshoppingproduct.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googleshoppingproduct.js > googleshoppingproduct.js ``` |
 
 ### Target: ```google_shopping_pricing``` (parseable)
 Required parameters: ```query``` (as item ID from Google Shopping)
@@ -192,9 +192,9 @@ Required parameters: ```query``` (as item ID from Google Shopping)
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googleshoppingpricing.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googleshoppingpricing.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googleshoppingpricing.py > googleshoppingpricing.py ``` |
-| PHP                 | [php/googleshoppingpricing.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googleshoppingpricing.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googleshoppingpricing.php > googleshoppingpricing.php ``` |
-| Node.js                 | [nodejs/googleshoppingpricing.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googleshoppingpricing.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googleshoppingpricing.js > googleshoppingpricing.js ``` |
+| Python                  | [python/googleshoppingpricing.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googleshoppingpricing.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googleshoppingpricing.py > googleshoppingpricing.py ``` |
+| PHP                 | [php/googleshoppingpricing.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googleshoppingpricing.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googleshoppingpricing.php > googleshoppingpricing.php ``` |
+| Node.js                 | [nodejs/googleshoppingpricing.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googleshoppingpricing.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googleshoppingpricing.js > googleshoppingpricing.js ``` |
 
 ### Target: ```google_images``` (not parseable)
 Required parameters: ```query```
@@ -210,9 +210,9 @@ Returns links of images similar to the provided image link.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googleimages.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googleimages.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googleimages.py > googleimages.py ``` |
-| PHP                 | [php/googleimages.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googleimages.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googleimages.php > googleimages.php ``` |
-| Node.js                 | [nodejs/googleimages.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googleimages.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googleimages.js > googleimages.js ``` |
+| Python                  | [python/googleimages.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googleimages.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googleimages.py > googleimages.py ``` |
+| PHP                 | [php/googleimages.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googleimages.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googleimages.php > googleimages.php ``` |
+| Node.js                 | [nodejs/googleimages.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googleimages.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googleimages.js > googleimages.js ``` |
 
 ### Target: ```google_suggest``` (not parseable)
 Required parameters: ```query```, ```geo``` in ISO 2 format
@@ -229,9 +229,9 @@ Returns Google keyword suggestions based on the supplied query.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googlesuggest.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googlesuggest.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googlesuggest.py > googlesuggest.py ``` |
-| PHP                 | [php/googlesuggest.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googlesuggest.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googlesuggest.php > googlesuggest.php ``` |
-| Node.js                 | [nodejs/googlesuggest.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googlesuggest.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googlesuggest.js > googlesuggest.js ``` |
+| Python                  | [python/googlesuggest.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googlesuggest.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googlesuggest.py > googlesuggest.py ``` |
+| PHP                 | [php/googlesuggest.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googlesuggest.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googlesuggest.php > googlesuggest.php ``` |
+| Node.js                 | [nodejs/googlesuggest.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googlesuggest.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googlesuggest.js > googlesuggest.js ``` |
 
 ### Target: ```google_trends_explore``` (not parseable,already returns structured data)
 
@@ -250,9 +250,9 @@ Retrieve Google Trends results. This target returns structured data so there is 
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googletrendsexplore.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googletrendsexplore.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googletrendsexplore.py > googletrendsexplore.py ``` |
-| PHP                 | [php/googletrendsexplore.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googletrendsexplore.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googletrendsexplore.php > googletrendsexplore.php ``` |
-| Node.js                 | [nodejs/googletrendsexplore.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googletrendsexplore.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googletrendsexplore.js > googletrendsexplore.js ``` |
+| Python                  | [python/googletrendsexplore.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googletrendsexplore.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googletrendsexplore.py > googletrendsexplore.py ``` |
+| PHP                 | [php/googletrendsexplore.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googletrendsexplore.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googletrendsexplore.php > googletrendsexplore.php ``` |
+| Node.js                 | [nodejs/googletrendsexplore.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googletrendsexplore.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googletrendsexplore.js > googletrendsexplore.js ``` |
 
 ### Target: ```google_ads``` (parseable)
 Required parameters: ```query```
@@ -268,9 +268,9 @@ Returns Google search results with paid ads.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/googleads.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googleads.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googleads.py > googleads.py ``` |
-| PHP                 | [php/googleads.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googleads.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googleads.php > googleads.php ``` |
-| Node.js                 | [nodejs/googleads.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googleads.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googleads.js > googleads.js ``` |
+| Python                  | [python/googleads.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/googleads.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/googleads.py > googleads.py ``` |
+| PHP                 | [php/googleads.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/googleads.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/googleads.php > googleads.php ``` |
+| Node.js                 | [nodejs/googleads.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/googleads.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/googleads.js > googleads.js ``` |
 
 ## Baidu
 Baidu can be targeted either using direct URL or by using the query parameter to the Baidu search bar.
@@ -289,9 +289,9 @@ Target by supplying direct URL link.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/baidusearch.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/baidusearch.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/baidusearch.py > baidusearch.py ``` |
-| PHP                 | [php/baidusearch.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/baidusearch.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/baidusearch.php > baidusearch.php ``` |
-| Node.js                 | [nodejs/baidusearch.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/baidusearch.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/baidusearch.js > baidusearch.js ``` |
+| Python                  | [python/baidusearch.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/baidusearch.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/baidusearch.py > baidusearch.py ``` |
+| PHP                 | [php/baidusearch.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/baidusearch.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/baidusearch.php > baidusearch.php ``` |
+| Node.js                 | [nodejs/baidusearch.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/baidusearch.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/baidusearch.js > baidusearch.js ``` |
 
 ### Target: ```baidu_search```(not parseable)
 Required parameters: ```query```
@@ -307,9 +307,9 @@ Target by supplying your query to the Baidu search bar.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/baidusearchquery.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/baidusearchquery.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/baidusearchquery.py > baidusearchquery.py ``` |
-| PHP                 | [php/baidusearchquery.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/baidusearchquery.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/baidusearchquery.php > baidusearchquery.php ``` |
-| Node.js                 | [nodejs/baidusearchquery.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/baidusearchquery.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/baidusearchquery.js > baidusearchquery.js ``` |
+| Python                  | [python/baidusearchquery.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/baidusearchquery.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/baidusearchquery.py > baidusearchquery.py ``` |
+| PHP                 | [php/baidusearchquery.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/baidusearchquery.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/baidusearchquery.php > baidusearchquery.php ``` |
+| Node.js                 | [nodejs/baidusearchquery.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/baidusearchquery.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/baidusearchquery.js > baidusearchquery.js ``` |
 
 ## Bing
 
@@ -427,9 +427,9 @@ Target by supplying direct URL link.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/bingsearch.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/bingsearch.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/bingsearch.py > bingsearch.py ``` |
-| PHP                 | [php/bingsearch.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/bingsearch.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/bingsearch.php > bingsearch.php ``` |
-| Node.js                 | [nodejs/bingsearch.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/bingsearch.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/bingsearch.js > bingsearch.js ``` |
+| Python                  | [python/bingsearch.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/bingsearch.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/bingsearch.py > bingsearch.py ``` |
+| PHP                 | [php/bingsearch.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/bingsearch.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/bingsearch.php > bingsearch.php ``` |
+| Node.js                 | [nodejs/bingsearch.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/bingsearch.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/bingsearch.js > bingsearch.js ``` |
 
 ### Target: ```bing_search```(parseable)
 Required parameters: ```query```
@@ -445,9 +445,9 @@ Target by supplying your query to the Bing search bar.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/bingsearchquery.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/bingsearchquery.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/bingsearchquery.py > bingsearchquery.py ``` |
-| PHP                 | [php/bingsearchquery.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/bingsearchquery.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/bingsearchquery.php > bingsearchquery.php ``` |
-| Node.js                 | [nodejs/bingsearchquery.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/bingsearchquery.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/bingsearchquery.js > bingsearchquery.js ``` |
+| Python                  | [python/bingsearchquery.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/bingsearchquery.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/bingsearchquery.py > bingsearchquery.py ``` |
+| PHP                 | [php/bingsearchquery.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/bingsearchquery.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/bingsearchquery.php > bingsearchquery.php ``` |
+| Node.js                 | [nodejs/bingsearchquery.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/bingsearchquery.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/bingsearchquery.js > bingsearchquery.js ``` |
 
 ## Yandex
 
@@ -467,9 +467,9 @@ Target by supplying direct URL link.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/yandexsearch.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/yandexsearch.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/yandexsearch.py > yandexsearch.py ``` |
-| PHP                 | [php/yandexsearch.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/yandexsearch.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/yandexsearch.php > yandexsearch.php ``` |
-| Node.js                 | [nodejs/yandexsearch.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/yandexsearch.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/yandexsearch.js > yandexsearch.js ``` |
+| Python                  | [python/yandexsearch.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/yandexsearch.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/yandexsearch.py > yandexsearch.py ``` |
+| PHP                 | [php/yandexsearch.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/yandexsearch.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/yandexsearch.php > yandexsearch.php ``` |
+| Node.js                 | [nodejs/yandexsearch.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/yandexsearch.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/yandexsearch.js > yandexsearch.js ``` |
 
 
 ### Target: ```yandex_search``` (not parseable)
@@ -486,9 +486,9 @@ Target by supplying your query to the Yandex search bar.
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/yandexsearchquery.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/yandexsearchquery.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/yandexsearchquery.py > yandexsearchquery.py ``` |
-| PHP                 | [php/yandexsearchquery.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/yandexsearchquery.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/yandexsearchquery.php > yandexsearchquery.php ``` |
-| Node.js                 | [nodejs/yandexsearchquery.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/yandexsearchquery.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/yandexsearchquery.js > yandexsearchquery.js ``` |
+| Python                  | [python/yandexsearchquery.py](https://github.com/Decodo/SERP-Scraping-API/blob/main/python/yandexsearchquery.py) |``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/python/yandexsearchquery.py > yandexsearchquery.py ``` |
+| PHP                 | [php/yandexsearchquery.php](https://github.com/Decodo/SERP-Scraping-API/blob/main/php/yandexsearchquery.php)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/php/yandexsearchquery.php > yandexsearchquery.php ``` |
+| Node.js                 | [nodejs/yandexsearchquery.js](https://github.com/Decodo/SERP-Scraping-API/blob/main/nodejs/yandexsearchquery.js)   | ``` curl https://raw.githubusercontent.com/Decodo/SERP-Scraping-API/main/nodejs/yandexsearchquery.js > yandexsearchquery.js ``` |
 
 ## Parameters
 
